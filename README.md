@@ -10,7 +10,11 @@ OSKチェッカー(オーエスケーチェッカー)
 <br>
 
 # URL
-（デプロイ未実施）
+https://osk-checker.onrender.com/  
+
+認証ユーザー名/パスワード  
+ユーザー名： tsuchiko  
+パスワード： 3333
 <br>
 <br>
 
