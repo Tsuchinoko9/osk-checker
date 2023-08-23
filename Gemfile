@@ -75,6 +75,7 @@ end
 
 gem 'pry-rails'
 
+gem 'devise'
 
 
 group :production do
