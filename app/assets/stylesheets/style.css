@@ -1,0 +1,10 @@
+header{
+  background-color: lightblue;
+  
+}
+
+.header__bar .title a {
+  text-decoration: none;
+  color: black;
+  
+}
