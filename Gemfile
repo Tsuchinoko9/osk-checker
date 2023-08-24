@@ -77,6 +77,8 @@ gem 'pry-rails'
 
 gem 'devise'
 
+gem 'nokogiri'
+
 
 group :production do
   gem 'pg'
