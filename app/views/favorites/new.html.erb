@@ -1,0 +1,25 @@
+<div class="favorites-registration-main">
+    <h2 class="favorites-registration">お気に入りのWebサイトの情報を入力</h2>
+    <%= form_with model: @favorite, data:{turbo: false}, local: true do |f| %>
+
+  <label class="form-text">WebサイトのURL</label>
+  <br>
+  <%= f.text_area :url, class:"favorites-info", id:"favorite-url", placeholder:"http://〜〜〜〜〜" %>
+  <br>
+  <br>
+
+  <label class="form-text">Webサイトの名前</label>
+  <br>
+  <%= f.text_area :name, class:"favorites-info", id:"favorite-name", placeholder:"(50文字まで)", maxlength:"50" %>
+  <br>
+  <br>
+
+  <label class="form-text">一覧での優先表示順位</label>
+  <br>
+  <%= f.select :priority_order, (1..20).to_a - @existing_priority_order %>
+  <br>
+  <br>
+
+  <%= f.submit "登録する" ,class:"button" %>
+ <% end %>
+</div>
