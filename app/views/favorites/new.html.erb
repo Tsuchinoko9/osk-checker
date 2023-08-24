@@ -16,7 +16,7 @@
 
   <label class="form-text">一覧での優先表示順位</label>
   <br>
-  <%= f.select :priority_order, (1..20).to_a %>
+  <%= f.select :priority_order, (1..20).to_a - @existing_priority_order %>
   <br>
   <br>
 

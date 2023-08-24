@@ -4,6 +4,7 @@ class FavoritesController < ApplicationController
 
   def new
     @favorite = Favorite.new
+    @existing_priority_order = Favorite.pluck(:priority_order)
   end
 
   def create
