@@ -1,1 +1,30 @@
-<%= "テスト" %>
+<div class='favorite-list'>
+  <% if user_signed_in?  %>
+
+      <% if @favorites.present? %>
+      <%= "お気に入りリスト" %><br>
+
+        <% @favorites.each do |favorite| %>
+          <br>
+          <%= link_to favorite.name, favorite.url, target: "_blank" %>
+          <br>
+        <% end %>
+      <% else %>
+        <br>
+        <span>お気に入りの登録がありません<br></span>
+        </div>
+      <% end %>
+
+  <% else %>
+        <br>
+        <span>
+        ここでは登録したお気に入りのサイトが<br>
+        更新されているか確認することができます。<br>
+        機能の利用にはユーザー登録が必要です。
+        </span>
+        </div>
+  <% end %>
+
+
+
+</div>
