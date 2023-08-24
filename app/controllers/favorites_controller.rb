@@ -1,5 +1,9 @@
 class FavoritesController < ApplicationController
+
   def index
+    if user_signed_in?
+    @favorites = current_user.favorites.order(:priority_order)
+    end
   end
 
   def new
