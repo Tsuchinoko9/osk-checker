@@ -20,7 +20,9 @@
         <% if user_signed_in? %>
           <div class="user_menu">
             <div class="user_name">
-            <%= "ログイン中：#{current_user.nickname} 様" %>
+            <%= "#{current_user.nickname} 様　ログイン中" %>
+            <br>
+
             </div>
               <%= link_to "マイページ", "/users/#{current_user.id}", class: "button" %>
               <%= link_to "ログアウト", destroy_user_session_path, data: { turbo_method: :delete }, class: "button" %>
@@ -35,7 +37,7 @@
           </div>
         <% end %>
       </div>
-
+     <br>
 
     </header>
     <%= yield %>

@@ -2,13 +2,35 @@
   <% if user_signed_in?  %>
 
       <% if @favorites.present? %>
-      <%= "お気に入りリスト" %><br>
+      <div class="favorite-list-title">
+      <%= "【 お気に入りリスト 】" %><br>
+      </div>
+      <div class="favorite-content">
+        <div class="favorite-list">
+        <% @update_favorites.each do |favorite| %>
+          <div class="update-favorite-item">
+            
+              <span class="new"><%= "[ NEW ]" %> </span>
+              <%= link_to favorite.name, favorite.url, target: "_blank" %>
+              <span class="new"><%= "[ NEW ]" %> </span>
+          </div>
 
-        <% @favorites.each do |favorite| %>
-          <br>
-          <%= link_to favorite.name, favorite.url, target: "_blank" %>
-          <br>
         <% end %>
+        </div>
+      <br>
+
+     
+        <div class="favorite-list">
+        <% @no_update_favorites.each do |favorite| %>
+          <div class="favorite-item">
+            
+              <%= link_to favorite.name, favorite.url, target: "_blank" %>
+         
+          </div>
+       
+        <% end %>
+        </div>
+      </div>
       <% else %>
         <br>
         <span>お気に入りの登録がありません<br></span>
