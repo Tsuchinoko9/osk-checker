@@ -15,7 +15,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_24_050002) do
     t.string "url", null: false
     t.string "name", null: false
     t.integer "priority_order", null: false
-    t.string "contents", default: "", null: false
+    t.text "content", null: false
     t.string "update_check", default: "no", null: false
     t.bigint "user_id", null: false
     t.datetime "created_at", null: false

@@ -1,10 +1,95 @@
 header{
   background-color: lightblue;
-  
+  text-align: center; 
 }
 
-.header__bar .title a {
+
+
+.header a {
   text-decoration: none;
   color: black;
   
 }
+
+.user_name{
+  /* background-color: white; */
+  padding-bottom: 5px;
+ 
+}
+
+.button{
+  padding: 8px 15px;
+  font-size: 14px;
+  border: 2px solid #57C3E9;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  display: inline-block;
+  background-color: azure;
+}
+
+.favorite-list-title{
+  margin-bottom: 5px;
+  margin-bottom: 5px;
+  text-align: center; 
+}
+
+
+
+.favorite-list {
+  list-style: none;
+  /* /.favorite-content: purple; */
+    display: table;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  /* background: #888; */
+  list-style: none;
+}
+
+
+.new {
+  color: red;
+  font-weight: bold;
+}
+
+
+
+
+.favorite-content {
+
+
+}
+
+.update-favorite-item {
+  
+  text-decoration: none;
+  margin-bottom: 16px; /* アイテム間の余白 */
+}
+
+.update-favorite-item a{
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.favorite-item {
+  /* background: blue; */
+  text-decoration: none;
+  margin-bottom: 16px; /* アイテム間の余白 */
+
+}
+
+.favorite-item a{
+  /* background: blue; */
+  text-decoration: none;
+  
+
+}
+
+.favorite-item .new {
+  margin-right: 5px; /* [ NEW ] とテキストの間のスペース */
+  margin-left : 5px; /* [ NEW ] とテキストの間のスペース */
+}
+
+
