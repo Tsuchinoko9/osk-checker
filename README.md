@@ -73,6 +73,7 @@ https://osk-checker.onrender.com/
 
 # 画面遷移図
 [![Image from Gyazo](https://i.gyazo.com/1afa1d6502b5dc4d47404e59e6383446.png)](https://gyazo.com/1afa1d6502b5dc4d47404e59e6383446)
+（未実装部分あり）
 <br>
 <br>
 
