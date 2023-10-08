@@ -93,11 +93,6 @@ https://osk-checker.onrender.com/
 <br>
 <br>
 
-# ローカルでの動作方法
-(現在準備中)
-<br>
-<br>
-
 # 工夫したポイント
 (現在準備中)
 <br>
