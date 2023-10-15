@@ -104,7 +104,7 @@ https://osk-checker.onrender.com/
 <br>
 
 # 制作時間
-(現在準備中)
+約45時間
 <br>
 <br>
 
