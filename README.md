@@ -99,7 +99,7 @@ https://osk-checker.onrender.com/
 <br>
 
 # 改善点
-(現在準備中)
+お気に入り表示順位の変更の操作をしやすくする
 <br>
 <br>
 
