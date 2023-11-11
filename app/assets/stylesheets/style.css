@@ -92,4 +92,14 @@ header{
   margin-left : 5px; /* [ NEW ] とテキストの間のスペース */
 }
 
+.my_page{
+  text-align: center; 
+}
 
+.favorite_registration{
+  text-align: center; 
+}
+
+.favorites-registration-main{
+  text-align: center; 
+}
